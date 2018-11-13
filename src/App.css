@@ -1,0 +1,11 @@
+.login-page {
+    margin-top: 120px;
+}
+
+.form-group.has-danger .control-label {
+    color: #a94442
+}
+
+.form-group.has-danger input.form-control {
+    border-color: #a94442
+}
