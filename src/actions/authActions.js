@@ -11,3 +11,11 @@ export const login = (username, password) => {
         });
     };
 };
+
+export const logout = () => {
+    return dispatch => {
+        dispatch({
+            type: actionTypes.UNSET_AUTH
+        });
+    };
+}
